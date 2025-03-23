@@ -2,6 +2,6 @@
 Source code for TSLV
 
 Credits:
-Anandhu Biju
-Amarjith H
-Abel Sebastian
+Anandhu Biju\n
+Amarjith H\n
+Abel Sebastian\n
