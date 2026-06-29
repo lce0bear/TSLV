@@ -15,15 +15,15 @@
 
 ## 🚀 Key Features
 * **Expressive OLED Eyes:** Utilizes an I2C SSD1306 OLED display to render dynamic facial expressions. The robot idly blinks and transitions to a "happy" expression when physically petted (via touch sensors).
-* **Capacitive Touch Interactivity:** Digital touch sensors allow the robot to physically react to its environment, overriding manual controls to execute pre-programmed movement dances when interacted with.
+* **Capacitive Touch Interactivity:** Digital touch sensors allow the robot to physically react to its environment, overriding the OLED to display a 'happy' face.
 * **Bluetooth Teleoperation:** Fully controllable via smartphone using standard Bluetooth Serial communication (sending `F`, `B`, `L`, `R` commands).
-* **Differential Drive System:** 4-wheel/2-track motor setup for zero-radius turning and agile movement.
+* **Differential Drive System:** 2-wheel motor setup.
 
 ## 🛠️ Hardware Architecture
 * **Brain:** ESP32 Microcontroller
 * **Face:** 128x64 I2C OLED Display (SSD1306)
 * **Sensors:** Digital Capacitive Touch Sensors
-* **Actuators:** DC Gear Motors + Motor Driver (e.g., L298N)
+* **Actuators:** DC Gear Motors + Motor Driver (L298N)
 * **Chassis:** Custom-fabricated cardboard enclosure
 
 ## 📁 Repository Structure
